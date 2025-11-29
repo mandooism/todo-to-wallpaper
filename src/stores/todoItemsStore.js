@@ -1,25 +1,25 @@
-import {create} from "zustand";
+import { create } from "zustand";
 
 export const useTodoItemsStore = create((set) => ({
-    todoItems: [],
+  todoItems: [],
 
-    addTodoItem: (text) =>
-        set((state) => ({
-            todoItems: [...state.todoItems, {id: Date.now(), text, done: false}]
-        })),
+  addTodoItem: (text) =>
+    set((state) => ({
+      todoItems: [...state.todoItems, { id: Date.now(), text, done: false }],
+    })),
 
-    updateTodoItem: ({id, text, done}) =>
-        set((state) => ({
-            todoItems: [
-                ...state.todoItems.filter((item) => item.id !== id),
-                {id, text, done}
-            ]
-        })),
+  updateTodoItem: ({ id, text, done }) =>
+    set((state) => ({
+      todoItems: [
+        ...state.todoItems.filter((item) => item.id !== id),
+        { id, text, done },
+      ],
+    })),
 
-    removeTodoItem: (id) =>
-        set((state) => ({
-            todoItems: state.todoItems.filter((item) => item.id !== id)
-        })),
+  removeTodoItem: (id) =>
+    set((state) => ({
+      todoItems: state.todoItems.filter((item) => item.id !== id),
+    })),
 
-    clear: () => set({ todoItems: [] })
-}))
+  clear: () => set({ todoItems: [] }),
+}));

@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import View from "./pages/View";
-import "./reset.css"
+import "./reset.css";
 
 function App() {
   return (

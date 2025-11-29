@@ -4,12 +4,13 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "eslint . --fix && prettier --write . && vite",
     "build": "vite build",
-    "lint": "eslint .",
+    "lint": "eslint . --fix && prettier --write .",
     "preview": "vite preview"
   },
   "dependencies": {
+    "prettier": "^3.7.2",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "react-router-dom": "^7.9.6",
