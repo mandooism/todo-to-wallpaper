@@ -1,0 +1,90 @@
+:root {
+  font-size: 16px; /* 1rem = 16px */
+  --line-height: 1.5rem; /* 여기만 바꾸면 전체 줄무늬 간격이 자동 조정됨 */
+}
+
+.todo {
+    width: 100vw;
+}
+.todo__inner {
+    padding: 2rem;
+}
+
+.todo-items {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+
+.todo-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.todo-item__inner {
+    display: flex;
+    width: 100%;
+    gap: 0.8rem;
+
+}
+
+.todo-item__buttons {
+    display: flex;
+    gap: 0.3rem;
+}
+
+.todo-item__edit, .todo-item__delete {
+    padding: 0.3rem;
+}
+
+
+.todo-item__checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* 필요하면 사이즈/스타일 */
+  width: 1.5rem;
+  height: 1.5rem;
+  font-size: 1rem;
+}
+
+.lined {
+overflow-wrap: break-word;
+  width: 100%;
+  height: 100%;
+  padding: 0.1rem;
+  border: none;
+  resize: none;
+  font-size: 0.7rem;
+  line-height: var(--line-height);
+
+  /* 노트 줄무늬 배경 */
+  background-image:
+    linear-gradient(
+      to bottom,
+      transparent calc(var(--line-height) - 1px),
+      #e6e6e6 calc(var(--line-height) - 1px)
+    );
+  background-size: 100% var(--line-height);
+}
+
+
+.input {
+    display: flex;
+    gap: 0.8rem;
+}
+
+.input__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* 필요하면 사이즈/스타일 */
+  width: 1.5rem;
+  height: 1.5rem;
+  font-size: 1rem;
+}
+

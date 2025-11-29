@@ -1,16 +1,41 @@
-# React + Vite
+## Appendix
+### 핸드폰 별 화면 크기
+| 모델                    | 화면 해상도(px)  |
+| --------------------- | ----------- |
+| **iPhone 14**         | 2532 × 1170 |
+| **iPhone 14 Plus**    | 2778 × 1284 |
+| **iPhone 14 Pro**     | 2556 × 1179 |
+| **iPhone 14 Pro Max** | 2796 × 1290 |
+| **iPhone 15**         | 2556 × 1179 |
+| **iPhone 15 Plus**    | 2796 × 1290 |
+| **iPhone 15 Pro**     | 2556 × 1179 |
+| **iPhone 15 Pro Max** | 2796 × 1290 |
+| **iPhone 16**         | 2622 × 1206 |
+| **iPhone 16 Plus**    | 2796 × 1290 |
+| **iPhone 16 Pro**     | 2556 × 1179 |
+| **iPhone 16 Pro Max** | 2868 × 1320 |
+| **iPhone 17**         | 2652 × 1230 |
+| **iPhone 17 Pro**     | 2778 × 1284 |
+| **iPhone 17 Pro Max** | 3000 × 1386 |
+| **iPhone 16e**        | 2340 × 1080 |
+| **iPhone Air (2025)** | 2796 × 1290 |
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+| 모델                   | 화면 해상도(px)  |
+| -------------------- | ----------- |
+| **Galaxy S20**       | 3200 × 1440 |
+| **Galaxy S20+**      | 3200 × 1440 |
+| **Galaxy S20 Ultra** | 3200 × 1440 |
+| **Galaxy S21**       | 2400 × 1080 |
+| **Galaxy S21+**      | 2400 × 1080 |
+| **Galaxy S21 Ultra** | 3200 × 1440 |
+| **Galaxy S22**       | 2340 × 1080 |
+| **Galaxy S22+**      | 2340 × 1080 |
+| **Galaxy S22 Ultra** | 3088 × 1440 |
+| **Galaxy S23**       | 2340 × 1080 |
+| **Galaxy S23+**      | 2340 × 1080 |
+| **Galaxy S23 Ultra** | 3088 × 1440 |
+| **Galaxy S24**       | 2340 × 1080 |
+| **Galaxy S24+**      | 3120 × 1440 |
+| **Galaxy S24 Ultra** | 3120 × 1440 |
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+생각해보니 이미지를 조절할 수 있게 하고, 캡쳐하게 하면 배경화면 크기는 안중요하잖아? 
