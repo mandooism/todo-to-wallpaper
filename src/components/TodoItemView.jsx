@@ -9,7 +9,7 @@ const TodoItem = ({ item }) => {
         type="checkbox"
         defaultChecked={item.done}
       />
-      <p className="view__lined-p">{item.text}</p>
+      <p className="view__lined-p hi-melody">{item.text}</p>
     </div>
   );
 };

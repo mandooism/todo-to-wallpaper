@@ -14,7 +14,7 @@ const Input = () => {
 
   return (
     <div className="input">
-      <button onClick={onButtonClick} className="input__button" type="button">
+      <button onClick={onButtonClick} className="input__button bagel-fat-one" type="button">
         +
       </button>
       <textarea ref={textareaRef} className="lined" rows="2" cols="5" />

@@ -15,7 +15,7 @@ const EditInput = ({ item, save }) => {
 
   return (
     <div className="input">
-      <button onClick={onButtonClick} className="input__button" type="button">
+      <button onClick={onButtonClick} className="input__button bagel-fat-one" type="button">
         +
       </button>
       <textarea

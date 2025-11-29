@@ -30,11 +30,11 @@ const TodoItem = ({ item }) => {
             <p className="lined-p">{text}</p>
           </div>
           <div className="todo-item__buttons">
-            <button className="todo-item__edit" onClick={onClickEdit}>
+            <button className="todo-item__edit hi-melody" onClick={onClickEdit}>
               수정
             </button>
             <button
-              className="todo-item__delete"
+              className="todo-item__delete hi-melody"
               onClick={() => removeTodoItem(item.id)}
             >
               삭제

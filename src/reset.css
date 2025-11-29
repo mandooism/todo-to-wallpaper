@@ -128,5 +128,20 @@ table {
   border-spacing: 0;
 }
 
-/*
-*/
+.hi-melody {
+  font-family: "Hi Melody", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.bagel-fat-one {
+  font-family: "Bagel Fat One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.noto-sans-kr {
+  font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal; 100 ~ 900
+}
