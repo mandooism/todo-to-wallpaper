@@ -35,10 +35,6 @@
   align-items: flex-start;
 }
 
-.view__todo-item__inner .view__lined {
-  flex: 1;
-  min-width: 0; /* p가 부모 너비 넘지 않게 */
-}
 
 .view__todo-item__checkbox {
   display: flex;
@@ -51,19 +47,21 @@
   font-size: 1rem;
 }
 
-.view__lined {
+.view__lined-p {
   width: 100%;
-  /* height: 100%; ← 이거 지우기 */
-  min-height: var(--line-height); /* 최소 1줄 높이 */
-  max-height: calc(var(--line-height) * 2); /* 최대 2줄까지만 */
-  overflow: hidden; /* 넘치는 건 숨기기 */
-
   padding: 0.2rem 0.4rem;
-  border: none;
+
   font-size: 0.9rem;
   line-height: var(--line-height);
+  color: #333;
   box-sizing: border-box;
 
+  /* p 요소가 길게 튀어나가는 현상 방지 */
+  overflow-wrap: break-word;
+  word-break: break-word;
+  min-width: 0;
+
+  /* 줄무늬 배경 */
   background-image: linear-gradient(
     to bottom,
     transparent calc(var(--line-height) - 1px),
@@ -71,8 +69,10 @@
   );
   background-size: 100% var(--line-height);
 
-  word-break: break-word; /* 길어지면 줄바꿈 */
+  /* 텍스트 표시용이므로 resize 없음 */
+  border: none;
 }
+
 
 .view__input {
   display: flex;

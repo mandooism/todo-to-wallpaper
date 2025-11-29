@@ -27,7 +27,7 @@ const TodoItem = ({ item }) => {
               checked={item.done}
               onChange={onCheckboxChange}
             />
-            <p className="lined">{text}</p>
+            <p className="lined-p">{text}</p>
           </div>
           <div className="todo-item__buttons">
             <button className="todo-item__edit" onClick={onClickEdit}>
